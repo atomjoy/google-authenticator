@@ -1,0 +1,34 @@
+{
+	"name": "atomjoy/google-authenticator",
+	"description": "Php Google Authenticator library.",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"classmap": [
+			"src/"
+		],
+		"psr-4": {
+			"Atomjoy\\GoogleAuthenticator\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Atomjoy\\GoogleAuthenticator\\Tests\\": "tests/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Atomjoy",
+			"email": "atomjoy.official@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^8.1"
+	},
+	"extra": {
+		"laravel": {
+			"providers": []
+		}
+	}
+}
